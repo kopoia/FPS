@@ -5,11 +5,13 @@ using UnityEngine;
 public class RayCaster : MonoBehaviour
 {
     public Camera playerCamera;
-    public int enemykillcount;
+    AudioSource beamAudioSource;
+    public AudioClip beamSound;
     // Start is called before the first frame update
     void Start()
     {
        Cursor.lockState = CursorLockMode.Locked; // カーソルをロックする 
+       beamAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class RayCaster : MonoBehaviour
         if(Input.GetMouseButtonDown(0)) // 左クリックが押されたとき
         {
             Shot();
+            beamAudioSource.PlayOneShot(beamSound);
         }
     }
 
@@ -29,8 +32,9 @@ public class RayCaster : MonoBehaviour
         RaycastHit hitInfo; // Rayが当たったオブジェクトの情報を格納する変数
         if(Physics.Raycast(ray, out hitInfo, distance)) // Rayがオブジェクトに当たったとき
         {
-            if(hitInfo.collider.gameObject.tag == "Enemy") // Rayが当たったオブジェクトのタグが"Enemy"のとき
+            if(hitInfo.collider.tag == "Enemy") // Rayが当たったオブジェクトのタグが"Enemy"のとき
             {
+               hitInfo.collider.SendMessage("Damage");
             }
         }
     }
