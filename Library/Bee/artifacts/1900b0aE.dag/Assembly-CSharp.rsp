@@ -365,6 +365,7 @@
 "Assets/Scripts/RayCaster.cs"
 "Assets/Scripts/Retry.cs"
 "Assets/Scripts/ScoreCounter.cs"
+"Assets/Scripts/UniFPSCounter.cs"
 -langversion:9.0
 
 /deterministic
