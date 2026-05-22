@@ -359,6 +359,7 @@
 "Assets/Scripts/EnemyGenerator.cs"
 "Assets/Scripts/EnemyHpController.cs"
 "Assets/Scripts/EnemyNavigator.cs"
+"Assets/Scripts/GameStarter.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHpController.cs"
 "Assets/Scripts/PlayerHpCounter.cs"
