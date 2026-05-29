@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHpController : MonoBehaviour
 {
-    int enemyHp = 3;
+    int enemyHp = 1;
     // Start is called before the first frame update
     void Start()
     {

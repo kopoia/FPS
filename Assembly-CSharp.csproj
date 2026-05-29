@@ -79,6 +79,7 @@
   <ItemGroup>
     <None Include="Assets\Parkgarage\parkinggarage_readMe.txt" />
     <None Include="Assets\Little_GhostLP(FREE)\Documentation\Documentation(Little Ghost FREE).txt" />
+    <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
