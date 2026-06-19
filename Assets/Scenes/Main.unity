@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 181254, guid: 4531f4941a67045459499f23ed5bc711, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 465054, guid: 4531f4941a67045459499f23ed5bc711, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -267,6 +271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 168476, guid: 8229f963b32dc724c801fafd4a38147d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 499184, guid: 8229f963b32dc724c801fafd4a38147d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.10000002
@@ -344,6 +352,10 @@ PrefabInstance:
     - target: {fileID: 101166, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
       propertyPath: m_Name
       value: building_6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101166, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 412100, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
       propertyPath: m_LocalScale.x
@@ -986,6 +998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 136194, guid: 49dbc362fdf0c7a49a3d5e436f8d6031, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 473796, guid: 49dbc362fdf0c7a49a3d5e436f8d6031, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1156,6 +1172,10 @@ PrefabInstance:
     - target: {fileID: 195156, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
       propertyPath: m_Name
       value: building_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 195156, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 479564, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
       propertyPath: m_LocalScale.x
@@ -1368,6 +1388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road
       objectReference: {fileID: 0}
+    - target: {fileID: 150812, guid: 9df1de1cce3de2543bef4a7da4ce501b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 465820, guid: 9df1de1cce3de2543bef4a7da4ce501b, type: 3}
       propertyPath: m_LocalScale.x
       value: 20
@@ -1446,6 +1470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_1
       objectReference: {fileID: 0}
+    - target: {fileID: 181254, guid: 4531f4941a67045459499f23ed5bc711, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 465054, guid: 4531f4941a67045459499f23ed5bc711, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -1519,6 +1547,10 @@ PrefabInstance:
     - target: {fileID: 129934, guid: e8bf8a360364d0948a2f6427cf3cc569, type: 3}
       propertyPath: m_Name
       value: building_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 129934, guid: e8bf8a360364d0948a2f6427cf3cc569, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 449174, guid: e8bf8a360364d0948a2f6427cf3cc569, type: 3}
       propertyPath: m_LocalScale.x
@@ -1660,6 +1692,10 @@ PrefabInstance:
     - target: {fileID: 136194, guid: 49dbc362fdf0c7a49a3d5e436f8d6031, type: 3}
       propertyPath: m_Name
       value: building_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 136194, guid: 49dbc362fdf0c7a49a3d5e436f8d6031, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 473796, guid: 49dbc362fdf0c7a49a3d5e436f8d6031, type: 3}
       propertyPath: m_LocalScale.x
@@ -1844,7 +1880,7 @@ GameObject:
   - component: {fileID: 1244186869}
   - component: {fileID: 1244186868}
   - component: {fileID: 1244186867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1949,6 +1985,10 @@ PrefabInstance:
     - target: {fileID: 168476, guid: 8229f963b32dc724c801fafd4a38147d, type: 3}
       propertyPath: m_Name
       value: building_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 168476, guid: 8229f963b32dc724c801fafd4a38147d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 499184, guid: 8229f963b32dc724c801fafd4a38147d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2260,6 +2300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_7 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 186562, guid: 052d9e2fb5dbfda48a537e0e649e3325, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 482840, guid: 052d9e2fb5dbfda48a537e0e649e3325, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -2338,6 +2382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 129934, guid: e8bf8a360364d0948a2f6427cf3cc569, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 449174, guid: e8bf8a360364d0948a2f6427cf3cc569, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2415,6 +2463,10 @@ PrefabInstance:
     - target: {fileID: 186562, guid: 052d9e2fb5dbfda48a537e0e649e3325, type: 3}
       propertyPath: m_Name
       value: building_7
+      objectReference: {fileID: 0}
+    - target: {fileID: 186562, guid: 052d9e2fb5dbfda48a537e0e649e3325, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 482840, guid: 052d9e2fb5dbfda48a537e0e649e3325, type: 3}
       propertyPath: m_LocalScale.x
@@ -2781,6 +2833,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 126530, guid: d8c4bc004abb4fb428be3467211cea9c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 407188, guid: d8c4bc004abb4fb428be3467211cea9c, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2854,6 +2910,10 @@ PrefabInstance:
     - target: {fileID: 101166, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
       propertyPath: m_Name
       value: building_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 101166, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 412100, guid: 62b590143d8a1f841b1ff8d5536f0676, type: 3}
       propertyPath: m_LocalScale.x
@@ -2930,7 +2990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1859930022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2963,7 +3023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1869247673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3012,6 +3072,10 @@ PrefabInstance:
     - target: {fileID: 126530, guid: d8c4bc004abb4fb428be3467211cea9c, type: 3}
       propertyPath: m_Name
       value: building_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 126530, guid: d8c4bc004abb4fb428be3467211cea9c, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 407188, guid: d8c4bc004abb4fb428be3467211cea9c, type: 3}
       propertyPath: m_LocalScale.x
@@ -3154,6 +3218,10 @@ PrefabInstance:
     - target: {fileID: 195156, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
       propertyPath: m_Name
       value: building_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 195156, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 479564, guid: dba4b92b60933ec47bd74820fe64d5ce, type: 3}
       propertyPath: m_LocalScale.x
