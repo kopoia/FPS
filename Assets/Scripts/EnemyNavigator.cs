@@ -11,8 +11,8 @@ public class EnemyNavigator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        target = player.transform;
+        GameObject tower = GameObject.FindGameObjectWithTag("Tower");
+        target = tower.transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
