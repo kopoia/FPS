@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection", "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj", "{A6857E29-CCD2-155B-7F83-485065B38071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRookGames", "BigRookGames.csproj", "{531EA95D-9D4D-A3BA-9495-6964AE1E14BE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6CC92EE2-C97E-2137-C111-F092707B90B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.AI.Navigation.Updater", "Unity.AI.Navigation.Updater.csproj", "{98405A63-BB63-8856-6E89-5A2F9BDB5962}"
@@ -181,6 +183,10 @@ Global
 		{A6857E29-CCD2-155B-7F83-485065B38071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6857E29-CCD2-155B-7F83-485065B38071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6857E29-CCD2-155B-7F83-485065B38071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531EA95D-9D4D-A3BA-9495-6964AE1E14BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531EA95D-9D4D-A3BA-9495-6964AE1E14BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531EA95D-9D4D-A3BA-9495-6964AE1E14BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531EA95D-9D4D-A3BA-9495-6964AE1E14BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CC92EE2-C97E-2137-C111-F092707B90B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CC92EE2-C97E-2137-C111-F092707B90B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC92EE2-C97E-2137-C111-F092707B90B5}.Release|Any CPU.ActiveCfg = Release|Any CPU

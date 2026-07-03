@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyGenerator : MonoBehaviour
 {
@@ -8,13 +9,16 @@ public class EnemyGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Generate", 0, 1f);
+            InvokeRepeating("Generate", 0, 1f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(SceneManager.GetActiveScene().name == "GameOver")
+        {
+            CancelInvoke("Generate");
+        }
     }
     void Generate()
     {

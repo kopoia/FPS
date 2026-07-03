@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+//using BigRookGames.Weapons;
 using UnityEngine;
 
 public class RayCaster : MonoBehaviour
@@ -7,6 +8,7 @@ public class RayCaster : MonoBehaviour
     public Camera playerCamera;
     AudioSource beamAudioSource;
     public AudioClip beamSound;
+    public GunfireController gunfireController;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,10 @@ public class RayCaster : MonoBehaviour
         {
             Shot();
             beamAudioSource.PlayOneShot(beamSound);
+        }
+        if(Input.GetMouseButtonDown(0)) // 左クリックが押されたとき
+        {
+            gunfireController.FireWeapon();
         }
     }
 

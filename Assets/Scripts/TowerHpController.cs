@@ -6,27 +6,27 @@ using UnityEngine.UI;
 
 public class TowerHpController : MonoBehaviour
 {
-    int towerHp = 10;
-    public Text towerHpText;
+    public TowerHPCounter towerHpCounter;
     // Start is called before the first frame update
     void Start()
     {
-        towerHpText.text = "TowerHP: " + towerHp.ToString();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        towerHpText.text = "TowerHP: " + towerHp.ToString();
+        
     }
 
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            towerHp--;
+            towerHpCounter.towerHp--;
+            Debug.Log("TowerHp: " + towerHpCounter.towerHp);
             Destroy(collision.gameObject);
-            if(towerHp <= 0)
+            if(towerHpCounter.towerHp <= 0)
             {
                 SceneManager.LoadScene("GameOver");
             }

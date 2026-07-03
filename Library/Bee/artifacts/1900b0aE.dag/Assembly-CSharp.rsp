@@ -327,6 +327,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/BigRookGames.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -365,8 +366,10 @@
 "Assets/Scripts/PlayerHpCounter.cs"
 "Assets/Scripts/RayCaster.cs"
 "Assets/Scripts/Retry.cs"
+"Assets/Scripts/RocketLauncherController.cs"
 "Assets/Scripts/ScoreCounter.cs"
 "Assets/Scripts/TowerHpController.cs"
+"Assets/Scripts/TowerHpCounter.cs"
 "Assets/Scripts/UniFPSCounter.cs"
 -langversion:9.0
 
