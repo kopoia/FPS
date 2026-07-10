@@ -29,6 +29,8 @@ public class TowerHpController : MonoBehaviour
             if(towerHpCounter.towerHp <= 0)
             {
                 SceneManager.LoadScene("GameOver");
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
             }
         }
     }

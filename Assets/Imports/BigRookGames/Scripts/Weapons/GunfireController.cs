@@ -49,8 +49,8 @@
             // --- If rotate is set to true, rotate the weapon in scene ---
             if (rotate)
             {
-                transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y 
-                                                                        + rotationSpeed, transform.localEulerAngles.z);
+                //transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y 
+                                                                        //+ rotationSpeed, transform.localEulerAngles.z);
             }
 
             // --- Fires the weapon if the delay time period has passed since the last shot ---
@@ -83,7 +83,7 @@
             // --- Shoot Projectile Object ---
             if (projectilePrefab != null)
             {
-                GameObject newProjectile = Instantiate(projectilePrefab, muzzlePosition.transform.position, muzzlePosition.transform.rotation, transform);
+                GameObject newProjectile = Instantiate(projectilePrefab, muzzlePosition.transform.position, muzzlePosition.transform.rotation);
             }
 
             // --- Disable any gameobjects, if needed ---
