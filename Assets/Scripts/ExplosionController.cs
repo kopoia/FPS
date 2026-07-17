@@ -18,7 +18,6 @@ public class ExplosionController : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
         {
-            Debug.Log("Particle Collision with: " + other.name);
             if (other.gameObject.tag == "Enemy")
             {
                 Debug.Log(other.gameObject.name);

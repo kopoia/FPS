@@ -9,6 +9,8 @@ public class RayCaster : MonoBehaviour
     AudioSource beamAudioSource;
     public AudioClip beamSound;
     public GunfireController gunfireController;
+    public GameObject pistol;
+    public GameObject rocketLauncher;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,12 +23,18 @@ public class RayCaster : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0)) // 左クリックが押されたとき
         {
-            Shot();
-            beamAudioSource.PlayOneShot(beamSound);
+            if(pistol.activeSelf == true)
+            {
+                Shot();
+                beamAudioSource.PlayOneShot(beamSound);   
+            }
         }
         if(Input.GetMouseButtonDown(0)) // 左クリックが押されたとき
         {
-            gunfireController.FireWeapon();
+            if(rocketLauncher.activeSelf == true)
+            {
+                gunfireController.FireWeapon();
+            }
         }
     }
 
