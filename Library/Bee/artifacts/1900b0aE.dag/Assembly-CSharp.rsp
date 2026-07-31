@@ -372,6 +372,12 @@
 "Assets/Scripts/TowerHpController.cs"
 "Assets/Scripts/TowerHpCounter.cs"
 "Assets/Scripts/UniFPSCounter.cs"
+"Assets/Simple FPS Controller/Scripts/Grappling Hook/SFPSC_GrapplingHook.cs"
+"Assets/Simple FPS Controller/Scripts/Grappling Hook/SFPSC_Rope.cs"
+"Assets/Simple FPS Controller/Scripts/SFPSC_FPSCamera.cs"
+"Assets/Simple FPS Controller/Scripts/SFPSC_KeyManager.cs"
+"Assets/Simple FPS Controller/Scripts/SFPSC_PlayerMovement.cs"
+"Assets/Simple FPS Controller/Scripts/Wall Run/SFPSC_WallRun.cs"
 -langversion:9.0
 
 /deterministic

@@ -66,21 +66,28 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TowerHpController.cs" />
     <Compile Include="Assets\Scripts\ExplosionController.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\SFPSC_PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\GameStarter.cs" />
     <Compile Include="Assets\Scripts\Retry.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\Grappling Hook\SFPSC_GrapplingHook.cs" />
     <Compile Include="Assets\Scripts\EnemyGenerator.cs" />
     <Compile Include="Assets\Scripts\UniFPSCounter.cs" />
     <Compile Include="Assets\Scripts\RayCaster.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\SFPSC_KeyManager.cs" />
     <Compile Include="Assets\Scripts\ScoreCounter.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\SFPSC_FPSCamera.cs" />
     <Compile Include="Assets\Scripts\PlayerHpCounter.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\Grappling Hook\SFPSC_Rope.cs" />
     <Compile Include="Assets\Scripts\EnemyNavigator.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\TowerHpCounter.cs" />
     <Compile Include="Assets\Scripts\EnemyHpController.cs" />
+    <Compile Include="Assets\Simple FPS Controller\Scripts\Wall Run\SFPSC_WallRun.cs" />
     <Compile Include="Assets\Scripts\PlayerHpController.cs" />
     <Compile Include="Assets\Scripts\RocketLauncherController.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Simple FPS Controller\Materials\Shaders\Unlit_Texture_Color.shader" />
     <None Include="Assets\Imports\Zombie Cartoon\Readme.txt" />
     <None Include="Assets\Parkgarage\parkinggarage_readMe.txt" />
     <None Include="Assets\Little_GhostLP(FREE)\Documentation\Documentation(Little Ghost FREE).txt" />
