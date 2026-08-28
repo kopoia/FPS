@@ -19,9 +19,9 @@ public class Retry : MonoBehaviour
 
     public void MainScene()
     {
+        SceneManager.LoadScene("Main");
         PlayerHpController.playerHp = 3;
         ScoreCounter.destroyedEnemyCount = 0;
-        SceneManager.LoadScene("Main");
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }

@@ -47,7 +47,7 @@ namespace BigRookGames.Weapons
 
             // ---  when hitting an objExplodeect and disable the projectile mesh ---
             Explode();
-            Collider[] hitColliders = Physics.OverlapSphere(transform.position, 5f, collisionLayerMask);
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, 10f, collisionLayerMask);
             foreach (Collider hitCollider in hitColliders)
             {
                 if (hitCollider.gameObject.CompareTag("Enemy"))
