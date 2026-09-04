@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 1f; // 視点の移動速度
     public float moveSpeed = 4f; // プレイヤーの移動速度
     public float walkSpeed = 4f, runSpeed = 8f; // プレイヤーの歩く速度と走る速度
-    public float jumpForce = 6f; // プレイヤーのジャンプ力
+    public float jumpForce = 9f; // プレイヤーのジャンプ力
 
     // 効果音変数
     AudioSource landAudioSource;

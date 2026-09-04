@@ -34,8 +34,8 @@ public class RayCaster : MonoBehaviour
             if(rocketLauncher.activeSelf == true)
             {
                 gunfireController.FireWeapon();
-                ScoreCounter.destroyedEnemyCount -= 10;
-                if (ScoreCounter.destroyedEnemyCount <= 10)
+                ScoreCounter.destroyedEnemyCount -= 5;
+                if (ScoreCounter.destroyedEnemyCount <= 5)
                 {
                     rocketLauncher.SetActive(false);
                     pistol.SetActive(true);

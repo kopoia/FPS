@@ -8,7 +8,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.FD7A1EDD" = "ref=\"Assets/Scripts/ExplosionController.cs\""
+	"last_search.FD7A1EDD" = "ref=\"Assets/Imports/Zombie Cartoon/Model/Zombie Cartoon.fbx\""
 	"OpenInspectorPreview.FD7A1EDD" = "0"
 	"currentGroup.FD7A1EDD" = "all"
 	"last_search.3BE40471" = "ref:Assets/Scripts/UniFPSCounter.cs"

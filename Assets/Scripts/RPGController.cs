@@ -18,7 +18,7 @@ public class RPGController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScoreCounter.destroyedEnemyCount >= 10)
+        if (ScoreCounter.destroyedEnemyCount >= 5)
         {
             Color color = RPGImage.color;
             color.a = 1f;
